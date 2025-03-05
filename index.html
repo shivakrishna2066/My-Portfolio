@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<head>
+    <title>Potfolio | Shiva Krishna</title>
+        <link rel="stylesheet"href="index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/d8d0c0d21a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top top-header">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="https://t3.ftcdn.net/jpg/03/02/63/58/360_F_302635899_5vymSQOlTKKioY5aYxbP3SHrpFC2IiDE.jpg" width="50px"> Shiva Krishna</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a href="#main_page" class="option" onclick="dispaly('main_page')">Home</a>
+                    <a href="#about_me_page" class="option" onclick="dispaly('about_me_page')">About</a>
+                    <a href="#Skills_page" class="option" onclick="dispaly('Skills_page')">Skills</a>
+                    <a href="#education_page" class="option" onclick="dispaly('education_page')">Education</a>
+                    <a href="#project_page" class="option" onclick="dispaly('project_page')">Project</a>
+                    <a href="#contact_page" class="option" onclick="dispaly('contact_page')">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+
+      <div class="background1"  id="main_page">
+        
+        <div class="d-flex flex-row">
+          <div class="container d-flex flex-row justify-content-center">
+            <div class="row">
+              <div class="image-container col-12 col-md-12 col-lg-6 d-flex flex-row justify-content-center d-none d-md-block">
+                <img src="https://res.cloudinary.com/dgax5dtrd/image/upload/v1733126365/Untitled_design_nctn1y.png" 
+                class="emoji">
+            </div>
+            <div class="image-container col-12 col-md-12 col-lg-6 d-flex flex-row justify-content-center d-md-none d-block">
+              <img src="https://res.cloudinary.com/dgax5dtrd/image/upload/v1733126365/Untitled_design_nctn1y.png" 
+              class="emoji_1">
+          </div>
+                <div class="col-12 col-md-12 col-lg-6 d-flex flex-row justify-content-center">
+                  <div>
+                    <div class="d-none d-md-block">
+                      <h1 class="heading">Hi,</h1>
+                    <h1 class="basic_info">I'm <span class="color_my_name">Shiva Krishna !!</span></h1>
+                    <h1 class="my_role">I am a <span class="typing">Web developer...</span></h1>
+                    </div>
+
+                    <div class="d-md-none d-block">
+                      <h1 class="heading_1">Hi,</h1>
+                      <h1 class="basic_info_1">I'm <span class="color_my_name">Shiva Krishna !!</span></h1>
+                      <h1 class="my_role_1">I am a <span class="typing">Web developer...</span></h1>
+                    </div>
+                    
+
+                    <div>
+                      <a href="#about_me_page">
+                        <button class="about_button" onclick="dispaly('about_me_page')">About Me<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-arrow-right-circle-fill left_arrow_icon" viewBox="0 0 16 16">
+                          <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+                        </svg></button>
+                      </a>
+                      
+                    </div>
+
+                    <div class="d-flex flex-row">
+                      <a href="https://www.linkedin.com/in/shiva2066/" target="_blank" style="color: black;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin contact_icons_first" viewBox="0 0 16 16">
+                          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                        </svg>
+                      </a>
+                      
+                      <a href="https://github.com/shivakrishna2066?tab=repositories" target="_blank" style="color: black;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github contact_icons" viewBox="0 0 16 16">
+                          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                        </svg>
+                      </a>
+                      
+                      <a href="https://www.instagram.com/_shiva_krish_na/" target="_blank" style="color: black;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram contact_icons" viewBox="0 0 16 16">
+                          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        </svg>
+                      </a>
+                      
+                      <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-threads contact_icons" viewBox="0 0 16 16">
+                          <path d="M6.321 6.016c-.27-.18-1.166-.802-1.166-.802.756-1.081 1.753-1.502 3.132-1.502.975 0 1.803.327 2.394.948s.928 1.509 1.005 2.644q.492.207.905.484c1.109.745 1.719 1.86 1.719 3.137 0 2.716-2.226 5.075-6.256 5.075C4.594 16 1 13.987 1 7.994 1 2.034 4.482 0 8.044 0 9.69 0 13.55.243 15 5.036l-1.36.353C12.516 1.974 10.163 1.43 8.006 1.43c-3.565 0-5.582 2.171-5.582 6.79 0 4.143 2.254 6.343 5.63 6.343 2.777 0 4.847-1.443 4.847-3.556 0-1.438-1.208-2.127-1.27-2.127-.236 1.234-.868 3.31-3.644 3.31-1.618 0-3.013-1.118-3.013-2.582 0-2.09 1.984-2.847 3.55-2.847.586 0 1.294.04 1.663.114 0-.637-.54-1.728-1.9-1.728-1.25 0-1.566.405-1.967.868ZM8.716 8.19c-2.04 0-2.304.87-2.304 1.416 0 .878 1.043 1.168 1.6 1.168 1.02 0 2.067-.282 2.232-2.423a6.2 6.2 0 0 0-1.528-.161"/>
+                        </svg>
+                      </a>
+                      
+                      <a href="mailto:shivakrishna2066@gmail.com" style="color: black;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope contact_icons" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                        </svg>
+                    </a>
+                    
+                      
+                    </div> 
+                    </div>
+                </div>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+
+      <div id="about_me_page" style="padding-top: 30px;">
+
+        <div class="background2" style="background-color: rgb(239, 240, 241);">
+          <h1 class="about_me_class"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+          </svg><span > About <span class="me_span">Me</span> </span></h1>
+        <div class="container">
+          <div class="row">
+          <div class="col-12 col-md-12 col-lg-12">
+              <div>
+              <h3>I'm Shiva Krishna</h3>
+              <p>I'm from Hyderabad, and I have recently graduated with a B.Tech degree in Computer Science from Ellenki College of Engineering and Technology. Through out my academic i learnt technologies like HTML, CSS , SQL and  Python.
+                I interned at AICTE, During the internship, I was trained in HTML, CSS, and JavaScript and worked on a project to create a clone website of Myntra.. My project involved developing an automated Android malware detection system using ensemble learning for cyber security.My strengths is being disciplined and goal-oriented.In my free time, I enjoy exploring new technologies, playing games, and traveling to new places.
+              </p>
+              <p><span class="Email-color">Email</span> :shivakrishna2066@gmail.com</p>
+              <p><span class="Email-color">Place</span> : Hyderabad, India - 502001</p>
+              <a href="https://drive.google.com/file/d/1aEMMnU6GIRoku2GGij89A_wtJiEkt9hO/view?usp=drive_link">
+                <button class="about_button">Resume <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+                  <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+                </svg></button>
+              </a>
+              </div>  
+          </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+      
+      
+      <div id="Skills_page" style="padding-top: 30px;">
+
+        <div style="background-color: rgb(89, 11, 162); margin-top: 0px;">
+          <h1 style="color: white; margin: 50px; padding: 50px;"><center><span><svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+            <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+          </svg></span> Skills & <span style="color: yellow;">Abilities</span></center></h1>
+  
+          <div class="container">
+            <div class="row">
+              <div class="d-flex flex-row flex-wrap justify-content-center">
+                
+                <div class="card card-skills col-12 col-md-4 col-lg-2">
+                  <center>
+                    <div>
+                      <img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" class="img-fluid" style="width: 80px; height: 80px;">
+                      <h3>HTML</h3>
+                    </div>
+                  </center>
+                </div>
+          
+                <div class="card card-skills col-12 col-md-4 col-lg-2">
+                  <center>
+                    <div>
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnxof3MaQZINC-OwprgxScacdvPCpxKnkGHQ&s" class="img-fluid" style="width: 80px; height: 80px;">
+                      <h3>CSS</h3>
+                    </div>
+                  </center>
+                </div>
+  
+                <div class="card card-skills col-12 col-md-4 col-lg-2">
+                  <center>
+                    <div>
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png" class="img-fluid" style="width: 100px; height: 80px;">
+                      <h3>Bootstrap</h3>
+                    </div>
+                  </center>
+                </div>
+          
+                <div class="card card-skills col-12 col-md-4 col-lg-2">
+                  <center>
+                    <div>
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ4qe-TiNdb7kONl0a1C3a1R3H9TPWKSJeGg&s" class="img-fluid" style="width: 80px; height: 80px;">
+                      <h3>JavaScript</h3>
+                    </div>
+                  </center>
+                </div>
+          
+              </div>
+            </div>
+          </div>
+  
+  
+  
+          <div class="container">
+            <div class="row">
+              <div class="d-flex flex-row flex-wrap justify-content-center">
+                
+                <div class="card card-skills col-12 col-md-4 col-lg-2">
+                  <center>
+                    <div>
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" class="img-fluid" style="width: 80px; height: 80px;">
+                      <h3>Python</h3>
+                    </div>
+                  </center>
+                </div>
+          
+                <div class="card card-skills col-12 col-md-4 col-lg-2">
+                  <center>
+                    <div>
+                      <img src="https://cdn.iconscout.com/icon/free/png-256/free-sqlite-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-6-pack-icons-282687.png?f=webp" class="img-fluid" style="width: 80px; height: 80px;">
+                      <h3>SQLite</h3>
+                    </div>
+                  </center>
+                </div>
+  
+                <div class="card card-skills col-12 col-md-4 col-lg-2">
+                  <center>
+                    <div>
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmKbdp7clyBpsvoWqys2fN2plOOXOETHmxSg&s" class="img-fluid" style="width: 100px; height: 80px;">
+                      <h3>GitHub</h3>
+                    </div>
+                  </center>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+
+      </div>
+
+
+      <div id="education_page" style="padding-top: 30px;">
+
+        <div style="background-color: rgb(239, 240, 241);">
+          <h1 class="about_me_class" style="padding-top: 50px; margin-bottom: 20px;"><svg xmlns="http://www.w3.org/2000/svg" width="76" height="46" fill="currentColor" class="bi bi-laptop-fill" viewBox="0 0 16 16">
+            <path d="M2.5 2A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+          </svg><span class="about_me_span">My<span class="me_span">Education</span> </span></h1>
+          <center>
+            <p>Education is not just about books<svg xmlns="http://www.w3.org/2000/svg" width="36" height="16" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+              <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+            </svg> it's about opening your mind to new ideas<svg xmlns="http://www.w3.org/2000/svg" width="26" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
+              <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
+            </svg></p>
+          </center>
+  
+          <div class="container">
+            <div class="row">
+              <center>
+                <div class="card card-education">
+                  <div class="d-flex flex-row">
+                    <!-- Image for large screens (hidden on mobile) -->
+                    <img src="https://images.shiksha.com/mediadata/images/1716532831phpkcUfU2.jpeg" 
+                         class="d-none d-md-block" 
+                         style="height: 200px; width: 300px;">
+          
+                    <!-- Content -->
+                    <div class="col-12 col-md-10" style="margin-top: 60px;">
+                      <h4 style="color: rgb(76, 14, 134);">Bachelor of Technology in Computer Science and Engineering(CSE)</h4>
+                      <h5 style="margin: 0px;">Ellenki College of Engineering and Technology | Hyderabad</h5>
+                      <h5 style="margin-top: 10px; color: green;">2021 - 2024 | Completed</h5>
+                    </div>
+  
+                  
+                </div>
+                <center><!-- Image for mobile (hidden on large screens) -->
+                  <img src="https://images.shiksha.com/mediadata/images/1716532831phpkcUfU2.jpeg" 
+                  class="d-md-none" 
+                  style="height: 200px; width: 300px;">
+                </center>
+                 
+              </div>
+              </center>
+            </div>
+          </div>
+          
+          <div class="container" >
+            <div class="row">
+              <center>
+                <div class="card card-education1" >
+                  <div class="d-flex flex-row">
+                    <!-- Image for large screens (hidden on mobile) -->
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCQtnXRNSedAEf_QiXwzO-VfDeNynQAUMr8w&s" 
+                         class="d-none d-md-block" 
+                         style="height: 200px; width: 300px;">
+          
+                    <!-- Content -->
+                    <div class="col-12 col-md-10" style="margin-top: 60px;">
+                      <h4 style="color: rgb(76, 14, 134);">Diploma in Electrical & Electronic Engineering (EEE)</h4>
+                      <h5 style="margin: 0px;">S.S.Government Polytechnic|Zaheerabad</h5>
+                      <h5 style="margin-top: 10px; color: green;">2018 - 2021 | Completed</h5>
+                    </div>
+  
+                  
+                </div>
+                <center><!-- Image for mobile (hidden on large screens) -->
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCQtnXRNSedAEf_QiXwzO-VfDeNynQAUMr8w&s" 
+                  class="d-md-none" 
+                  style="height: 200px; width: 300px;">
+                </center>
+                 
+          </div>
+              </center>
+            </div>
+          </div>
+
+      </div>
+      </div>
+
+      
+      <div id="project_page" style="padding-top: 30px;">
+
+        <div style="background-color: rgb(89, 11, 162); padding-bottom: 30px; margin-top: 0px;">
+          <h1 style="color: white; margin: 20px; padding: 20px;"><center><span><svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+            <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5"/>
+          </svg></span> Projects<span style="color: yellow;">Made</span></center></h1>
+          
+          <!-- project 1 -->
+          <div class="container my-3" >
+            <h1 class=" text-center" style="color: white; margin-top: 0px;">
+              <span style="font-size: 34px;">Cyber Threat Predictive Analytics</span>
+            </h1>
+          
+            <div class="card shadow-lg p-4" style="margin-bottom: 50px;">
+              <div class="row align-items-center">
+                <!-- Image Section -->
+                <div class="col-md-5 text-center">
+                  <img src="https://imarticus.org/blog/wp-content/uploads/2021/03/hhhee.gif" alt="Cyber Threat Project" class="img-fluid  shadow-lg" style="max-height: 200px; margin: 20px;">
+                </div>
+          
+                <!-- Project Details -->
+                <div class="col-md-7">
+                  <h4 class="text-info font-weight-bold">Cyber Threat Predictive Analytics</h4>
+                  <p><strong>Objective:</strong> Enhance cyber supply chain security through predictive analytics and machine learning techniques.</p>
+                  <p><strong>Technologies Used:</strong> Python, Machine Learning, Cybersecurity, Data Analytics</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- project 2-->
+          <div class="container my-3">
+            <h1 class="text-center" style="color: white;">
+              <span style="font-size: 34px;">Automated Android Malware Detection</span>
+            </h1>
+          
+            <div class="card shadow-lg p-4" style="margin-bottom: 50px;">
+              <div class="row align-items-center">
+                <!-- Image Section -->
+                <div class="col-md-5 text-center">
+                  <img src="https://www.appdome.com/wp-content/uploads/2021/04/Desktop-build2.gif" alt="Malware Detection Project" class="img-fluid rounded-circle shadow-lg" style="max-height: 250px;">
+                </div>
+          
+                <!-- Project Details -->
+                <div class="col-md-7">
+                  <h4 class="text-info font-weight-bold">Automated Android Malware Detection</h4>
+                  <p><strong>Objective:</strong> Develop a robust automated system to detect malware in Android applications using an optimal ensemble learning approach.</p>
+                  <p><strong>Technologies Used:</strong> Python, Machine Learning, Android Security, Ensemble Learning</p>
+              </div>
+            </div>
+          </div>
+
+          <!--project 3-->
+          <div class="container my-3" style="color: white;">
+            <h1 class="text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="76" height="46" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+                <path d="M8.5 2.5v11a.5.5 0 0 1-1 0v-11a.5.5 0 0 1 1 0z"/>
+                <path d="M4.5 1A1.5 1.5 0 0 0 3 2.5v11A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5v-11A1.5 1.5 0 0 0 11.5 1h-7zM4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-11z"/>
+              </svg>
+              <span style="font-size: 34px;">Library System Application</span>
+            </h1>
+          
+            <div class="card shadow-lg p-4" style="margin-bottom: 50px;">
+              <div class="row align-items-center">
+                <!-- Image Section -->
+                <div class="col-md-5 text-center">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-SGvRdJUIrEhd3m193NECJbln8dmIb1fVMA&s" alt="Library System" class="img-fluid shadow-lg" style="max-height: 250px;">
+                </div>
+          
+                <!-- Project Details -->
+                <div class="col-md-7">
+                  <h4 class="text-info font-weight-bold">Library System (Zoho Creator)</h4>
+                  <p><strong>Objective:</strong> Designed a cloud-based Library Management System using Zoho Creator to streamline book inventory, user borrowing, and tracking.</p>
+                  <p><strong>Technologies Used:</strong> Zoho Creator, Deluge Scripting, Cloud Database</p>
+                  <a href="https://drive.google.com/file/d/1_tRuV2pz6sv3OG2NCFyTSqqGpdgPOqRk/view" target="_blank" class="btn btn-primary mt-3">
+                    <i class="bi bi-arrow-right-circle"></i> Explore Project
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!--project 4-->
+          <div class="container my-3" style="color: white;">
+            <h1 class="text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="76" height="46" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+                <path d="M8.5 2.5v11a.5.5 0 0 1-1 0v-11a.5.5 0 0 1 1 0z"/>
+                <path d="M4.5 1A1.5 1.5 0 0 0 3 2.5v11A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5v-11A1.5 1.5 0 0 0 11.5 1h-7zM4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-11z"/>
+              </svg>
+              <span style="font-size: 34px;">Chatbot Using NLP</span>
+            </h1>
+          
+            <div class="card shadow-lg p-4" style="margin-bottom: 50px;">
+              <div class="row align-items-center">
+                <!-- Image Section -->
+                <div class="col-md-5 text-center">
+                  <img src="https://miro.medium.com/v2/resize:fit:1400/1*5krcxkqneY25Jg9Q7LdUHg.gif" alt="Library System" class="img-fluid shadow-lg" style="max-height: 250px;">
+                </div>
+          
+                <!-- Project Details -->
+                <div class="col-md-7">
+                  <h4 class="text-info font-weight-bold">Chatbot Using NLP</h4>
+                  <p><strong>Objective:</strong> Developed an intelligent chatbot using NLP techniques to enhance automated conversations.</p>
+                  <p><strong>Technologies Used:</strong> Python, Natural Language Processing (NLP), NLTK, TensorFlow, Flask</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+        </div>
+      </div>
+      </div>
+
+      
+      <div class="container py-5" id="contact_page">
+        <div class="row text-center text-md-start">
+            <div class="col-md-4 mb-4">
+                <h3>Shiva Krishna's Portfolio</h3>
+                <p>Thank you for visiting my personal Portfolio website.
+                <h4 class="fw-bold">Keep Rising 🚀</h4>
+                <p>Connect with me on social media!</p>
+            </div>
+
+            <div class="col-md-4 mb-4" style="color: black;">
+                <h3>Quick Links</h3>
+                <ul class="list-unstyled">
+                  <a href="#main_page" onclick="dispaly('main_page')" style="color: black; text-decoration: none;"><li>Home</li></a>  
+                  <a href="#about_me_page" onclick="dispaly('about_me_page')" style="color: black; text-decoration: none;"><li>About Me</li></a>
+                  <a href="#Skills_page" onclick="dispaly('Skills_page')" style="color: black; text-decoration: none;"><li>Skills</li></a>
+                  <a href="#education_page" onclick="dispaly('education_page')" style="color: black; text-decoration: none;"><li>Education</li></a>
+                  <a href="#project_page" onclick="dispaly('project_page')" style="color: black; text-decoration: none;"><li>Projects</li></a>
+                </ul>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <h3>Contact Info</h3>
+                <p>📞 +91 9505161871</p>
+                <p>📧 shivakrishna2066@gmail.com</p>
+                <p>📍 Hyderabad - 502001, India</p>
+                
+            </div>
+            </div>
+        </div>
+    
+
+      
+    <div class="position-fixed bottom-0 end-0 p-3">
+      <a href="#" class="btn btn-light rounded-circle shadow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+          </svg>
+      </a>
+  </div>
+
+<hr>
+
+<center style="font-weight: bold; ">
+  <p>Designed by <span style="color: green;">Shiva Krishna  😊</span></p>
+  
+</center>
+        
+      
+</body>
+</html>

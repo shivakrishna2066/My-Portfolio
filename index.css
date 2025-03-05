@@ -1,0 +1,226 @@
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+}
+
+/* Making the image responsive */
+
+
+/* Reduce image size on small screens */
+@media (max-width: 576px) { 
+    .emoji {
+        width: 80%;  /* Reduce size on smaller screens */
+    }
+}
+
+nav a {
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 300;
+    color: #fff; /* Corrected the color */
+    text-decoration: none;
+    padding: 10px;
+    z-index: 1;
+}
+
+.option{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+
+.home_option{
+    font-weight: bold;
+    color: rgb(56, 58, 153);
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.background1{
+    background-image: url("https://i.gifer.com/origin/85/856de846e59271089eca26c4260c9bdb_w200.gif");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding-top: 50px;
+    margin: 20px;
+}
+
+.emoji{
+    height: 60vh;
+    border-radius: 100vh;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.emoji_1{
+    height: 230px;
+    border-radius: 100vh;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.heading{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(56, 58, 153);
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.heading_1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(56, 58, 153);
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.basic_info{
+    font-size:50px;
+    font-weight: bold;
+    color: rgb(56, 58, 153);
+    margin-left: 10px;
+}
+
+.basic_info_1{
+    font-size:40px;
+    font-weight: bold;
+    color: rgb(56, 58, 153);
+    margin-left: 10px;
+}
+
+.color_my_name{
+    color: rgb(251, 133, 7);
+}
+
+.my_role{
+    margin-left: 10px;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.my_role_1{
+    margin-left: 10px;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+  
+  .typing {
+    display: inline-block; /* Ensures it stays inline with the text */
+    border-right: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: bottom; /* Aligns text vertically */
+    width: 0;
+    animation: typing 4s steps(12, end) infinite, blink 0.3s step-end infinite;
+  }
+  
+  @keyframes typing {
+    0%, 100% {
+      width: 0;
+    }
+    50% {
+      width: 13ch; /* Adjust to match the text length */
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+.about_button{
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+    background-color: rgb(56, 58, 153);
+    color: white;
+    border-width: 0px;
+    border-style: none;
+    margin-bottom: 40px;
+    padding-bottom: 8px
+}
+
+.left_arrow_icon{
+    margin-left: 10px;
+}
+
+.contact_icons_first{
+    margin-left: 10px;
+}
+
+.contact_icons{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    
+}
+
+.navbar_align{
+    font-weight: bold;
+    
+}
+
+.navbar_align ::after{
+    text-decoration: underline;
+    color: rgb(56, 58, 153);
+}
+
+.transparant{
+    color: transparent;
+    margin-bottom: 50px;
+}
+
+.about_me_class{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 80px;
+    margin-top: 0px;
+    padding-top: 50px;
+}
+
+
+.me_span{
+    color: rgb(56, 58, 153);
+}
+
+.Email-color{
+    font-weight: bold;
+    color: rgb(56, 58, 153);
+};
+
+
+.background3{
+    background-color: rgb(76, 14, 134);
+}
+
+.card-skills{
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+    margin: 50px;
+}
+
+.card-education{
+margin-top: 50px;
+}
+
+.card-education1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
